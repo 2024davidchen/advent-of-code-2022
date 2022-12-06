@@ -13,7 +13,6 @@ def checkRepeats(string):
   for x in string:
     if (string.count(x) > 1):
       result = true
-    if result:
       break
   return result
 
