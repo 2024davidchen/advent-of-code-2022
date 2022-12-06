@@ -1,11 +1,11 @@
 inputFile = open("day6-input.txt", "r")
-inputString = inputFile.readLines()[0]
+inputString = inputFile.readlines()[0]
 
 def checkRepeats(string):
-  result = false
+  result = False
   for x in string:
     if (string.count(x) > 1):
-      result = true
+      result = True
       break
   return result
 
